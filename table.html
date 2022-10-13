@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Structure</title>
+</head>
+<body>
+    <form method="post" align="center">
+        <h1> Registration Detail </h1>
+        <table border="1" align="center">
+            <tr>
+                <td>Name: </td>
+                <td><input type="texr" name="name" value=""/></td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><input type="email" name="email" value=""/></td>
+            </tr>
+            <tr>
+                <td>Password: </td>
+                <td><input type="password" name="password" value=""/></td>
+            </tr>
+            <tr>
+                <td>Biodata: </td>
+                <td><textarea name="biodata" value=""></textarea></td>
+            </tr>
+            <tr>
+                <td>Image: </td>
+                <td><input type="file" name="image" value=""/></td>
+            </tr>
+            <tr>
+                <td>Gender: </td>
+                <td><input type="radio" name="gender" value="Male"/>Male
+                    <input type="radio" name="gender" value="Female"/>Female
+                    <input type="radio" name="gender" value="Other"/>Other
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies: </td>
+                <td><input type="checkbox" name="hobbie" value="Cricket"/>Cricket
+                    <input type="checkbox" name="hobbie" value="Swiming"/>Swiming
+                    <input type="checkbox" name="hobbie" value="Singing"/>Singing
+                </td>
+            </tr>
+            <tr>
+                <td>Favourite Place:</td>
+                <td>
+                <select name="Favourite Place"> 
+                <option value="">-------Select------</option>    
+                <option value="Red Fort">Red Fort</option>
+                <option value="Mountain">Mountain</option>
+                <option value="Snow Ride">Snow Ride</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" name="submit" value="submit"/>
+                <input type="Reset" name="reset" value="Reset"/></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
