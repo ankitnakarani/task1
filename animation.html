@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+           margin: 0;
+           padding: 0;
+           /* background-color: aqua; */
+           /* text-align: center; */
+        }
+        div{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(32, 28, 28, 0.549);
+        }
+        div ul{
+            display: flex;
+            border-bottom: 2px solid black;
+
+        }
+        div ul li{
+            height: 50px;
+            width: 50px;
+            background-color: black;
+            list-style: none;
+            margin: 0 10px 0 20px;
+            border-radius: 40%;
+            animation: bouncy 8s linear infinite;
+            text-align:center;
+            color: white;
+            
+
+        }
+        @keyframes bouncy{
+            
+            0%{transform: translateY(0);}
+            50%{transform: translateY(-150px);}
+            100%{transform: translateY(0);}
+            
+
+        }
+        ul li:anth :nth-child(1){
+            background-color: rgb(126, 9, 135);
+            animation-delay: 0.8s;
+            
+        }
+        ul li:anth :nth-child(2){
+            background-color: rgb(37, 211, 22);
+            animation-delay: 0.5s;
+            animation-duration: 5s;
+            
+        }
+        ul li:anth :nth-child(3){
+            background-color: #ff7675
+            nimation-delay: 0.2s;
+            
+        }
+        ul li:anth :nth-child(4){
+            background-color: rgb(112, 126, 144);
+            animation-delay: 0.4s;
+            
+        }
+        ul li:anth :nth-child(5){
+            background-color: rgb(229, 119, 10);
+            animation-delay: 0.3s;
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>A</li>
+            <li>N</li>
+            <li>K</li>
+            <li>I</li>
+            <li>T</li>
+        </ul>
+    </div>
+</body>
+</html>
